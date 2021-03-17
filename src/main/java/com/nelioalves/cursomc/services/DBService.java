@@ -78,7 +78,7 @@ public class DBService {
 		Produto p8 = new Produto(null, "Roçadeira", 800.00);
 		Produto p9 = new Produto(null, "Abajour", 100.00);
 		Produto p10 = new Produto(null, "Pendente", 180.00);
-		Produto p11 = new Produto(null, "Shmpoo", 90.00);
+		Produto p11 = new Produto(null, "Shampoo", 90.00);
 		
 		
 		Estado est1 = new Estado(null, "Minas Gerais");
@@ -88,7 +88,7 @@ public class DBService {
 		Cidade c2 =  new Cidade (null, "São Paulo", est2);
 		Cidade c3 =  new Cidade (null, "Campinas", est2);
 		
-		Cliente cli1  = new Cliente (null, "Maria Silva", "vitorhenriquealt@gmail.com","04593302412", TipoCliente.PESSOAFISICA ,pe.encode("123"));
+		Cliente cli1  = new Cliente (null, "Antonio Correa", "acorreaoliveira@gmail.com","04593302412", TipoCliente.PESSOAFISICA ,pe.encode("123"));
 		cli1.getTelefones().addAll(Arrays.asList("27363323","93838393"));
 		
 		Cliente cli2  = new Cliente (null, "Ana Costa", "victorhenriquealt8@gmail.com","10217431437", TipoCliente.PESSOAFISICA ,pe.encode("123"));
