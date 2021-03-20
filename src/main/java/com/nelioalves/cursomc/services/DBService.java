@@ -88,10 +88,10 @@ public class DBService {
 		Cidade c2 =  new Cidade (null, "São Paulo", est2);
 		Cidade c3 =  new Cidade (null, "Campinas", est2);
 		
-		Cliente cli1  = new Cliente (null, "Antonio Correa", "acorreaoliveira@gmail.com","04593302412", TipoCliente.PESSOAFISICA ,pe.encode("123"));
+		Cliente cli1  = new Cliente (null, "Antonio Correa", "vitorhenriquealt8@gmail.com","04593302412", TipoCliente.PESSOAFISICA ,pe.encode("123"));
 		cli1.getTelefones().addAll(Arrays.asList("27363323","93838393"));
 		
-		Cliente cli2  = new Cliente (null, "Ana Costa", "victorhenriquealt8@gmail.com","10217431437", TipoCliente.PESSOAFISICA ,pe.encode("123"));
+		Cliente cli2  = new Cliente (null, "Ana Costa", "vitorhenriquealt@gmail.com","10217431437", TipoCliente.PESSOAFISICA ,pe.encode("123"));
 		cli2.getTelefones().addAll(Arrays.asList("27363323","93838393"));
 		cli2.addPerfil(Perfil.ADMIN);
 		
